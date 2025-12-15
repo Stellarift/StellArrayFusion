@@ -14,7 +14,7 @@ void task3() {
     int* arrA = new int[sizeA];  //массив A на sizeA чисел
     int* arrB = new int[sizeB];  //массив B на sizeB чисел
 
-    // Заполняем ящик A числами от пользователя
+    // Заполняем массив A числами от пользователя
     cout << "Введите элементы массива A:\n";
     for (int i = 0; i < sizeA; i++) {
         cout << "A[" << i << "] = ";
@@ -161,3 +161,4 @@ int main() {
     cout << "\nПрограмма завершена.\n";
     return 0;
 }
+
